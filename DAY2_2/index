@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day2_2</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<div class="div1">
+	<p>Div 1</p>
+</div>
+<div class="div1">
+	<p>Div2</p>
+</div>
+<div id="div2">
+	<p>Div3</p>
+</div>
+</body>
+</html>

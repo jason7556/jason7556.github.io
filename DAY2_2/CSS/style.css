@@ -1,0 +1,20 @@
+body {
+	background: rgba(0,0,255,0.5);
+}
+
+div{
+	background: rgb(0,0,255);
+	height:50vh;
+	width:500px;
+}
+
+
+.div1{
+	background: rgb(222,33,113);
+}
+
+#div2{
+	background: rgb(55,180,43);
+	height:30vh;
+	width:600px;
+}
