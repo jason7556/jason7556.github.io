@@ -675,18 +675,6 @@ nav ul li a:hover{
   background-repeat:no-repeat;
 }
 
-#usa_2015_photos_2{
-  display:inline-block;
-  background: url("../image/usa_2015_photos_2.jpg");
-  width:70%;
-  height:19%;
-  background-size:100%;
-  margin-top:2%;
-  margin-left:12%;
-  background-position: center;
-  background-repeat:no-repeat;
-}
-
 #usa_2015_photos_3{
   display:inline-block;
   background: url("../image/usa_2015_photos_3.jpg");
