@@ -1,0 +1,1023 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans:700i|Dosis');
+
+
+body{
+   padding:0;
+   font-family: 'Dosis', sans-serif;
+/*   margining:0;*/
+}
+
+#pagetitle{
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 40px;
+   margin-left:80px;
+   margin-top:2%;
+   font-style:italic;
+}
+
+
+body a{
+   text-decoration: none;
+   color:black;
+}
+
+nav{
+   background:white;
+   width:100%;
+   height: 150px;
+   left:0;
+   top:0;
+}
+
+
+nav ul{
+	height:100%;
+	/*display:flex;*/
+	padding:0;
+}
+
+nav ul li{
+/*	display:inline-block;*/
+    list-style: none;
+    margin-left:88%;
+	width:100px;
+	height:30%;
+
+}
+
+
+nav ul li a{
+   display:block;
+   color:black;
+   text-decoration: none;
+   font-size:30px;
+   /*transition:color 0.3s linear;*/
+   transition: all 0.2s ease-in-out;
+   text-align:right;
+}
+nav ul li a:hover{
+   color:rgb(200,200,200);
+}
+
+.project-title{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.works_text{
+  display:inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  width:76%;
+  margin-left:12%;
+  font-size:36px;
+
+}
+
+/*.project-paragraph{
+    margin-top:5%;
+
+}*/
+
+/*--------------index.html--------------*/
+
+#container_index{
+  background:white;
+  height: 1600px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+
+.boxes1{
+   width:280px;
+   height:475px;
+   margin-left:25px;
+   margin-top:40px;
+   display:inline-block;
+   background:rgb(240,240,240);
+   filter: grayscale(1);
+   transition: .3s ease-in; 
+}
+
+.boxes1:hover{
+ filter: grayscale(0);
+}
+
+.boxtext1{
+  width:80%;
+  margin-left:10%;
+  margin-top:0%;
+
+}
+
+#box1{
+  background: url("../image/daily_set.jpg");
+  background-size:80%;
+  width:275px;
+  height:275px;
+  margin-left:1.4%;
+  background-position: center;
+  background-repeat:no-repeat;
+  transition:.4s ease-out;
+}
+
+#box1:hover{
+  background-size:100%;
+}
+
+
+
+#box_2{
+  background: url("../image/wave_machine.jpg");
+  background-size:80%;
+  width:275px;
+  height:275px;
+  margin-left:1.1%;
+  background-position: center;
+  background-repeat:no-repeat;
+  transition: .4s ease-out;
+}
+
+#box_2:hover{
+  background-size:100%;
+}
+
+#box_3{
+  background: url("../image/mask.jpg");
+  background-size:80%;
+  width:275px;
+  height:275px;
+  margin-left:1.1%;
+  background-position: center;
+  background-repeat:no-repeat;
+  transition: .4s ease-out;
+}
+
+#box_3:hover{
+  background-size:100%;
+}
+
+#box_4{
+  background: url("../image/fashion_video.jpg");
+  background-size:80%;
+  width:275px;
+  height:275px;
+  margin-left:1.1%;
+  background-position: center;
+  background-repeat:no-repeat;
+  transition: .4s ease-out;
+}
+
+#box_4:hover{
+  background-size:100%;
+}
+
+#box_5{
+  background: url("../image/USA_2015.jpg");
+  background-size:80%;
+  width:275px;
+  height:275px;
+  margin-left:1.1%;
+  background-position: center;
+  background-repeat:no-repeat;
+  transition: .4s ease-out;
+}
+
+#box_5:hover{
+  background-size:100%;
+}
+
+
+.boxes2{
+   width:588px;
+   height:550px;
+   margin-left:25px;
+   margin-top:25px;
+   display:inline-block;
+   background:rgb(240,240,240);
+   filter: grayscale(1);
+   transition: .4s ease-in; 
+}
+
+.boxes2:hover{
+  filter: grayscale(0);
+}
+
+.boxtext2{
+  width:80%;
+  margin-left:5.2%;
+  margin-top:5%;
+
+}
+
+#box_2_1{
+  background: url("../image/taiwan.jpg");
+  background-size:100%;
+  width:529px;
+  height:350px;
+  margin-top:5%;
+  margin-left:5.2%;
+  background-position: center;
+  background-repeat:no-repeat;
+  transition:.4s ease-out;
+}
+
+#box_2_1:hover{
+  width:588px;
+  height:388px;
+  margin-top:0%;
+  margin-left:0%;
+}
+
+
+
+
+/*--------------index.html--------------*/
+
+/*--------------about.html--------------*/
+
+#container_about{
+  background:white;
+  height: 600px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+
+#profile_picture{
+  display:inline-block;
+  background:url("../image/profile_picture.jpg");
+  margin-left:20%;
+  margin-top:3%;
+  width:400px;
+  height:400px;
+  background-size:100%;
+  background-position: :center;
+  background-repeat:no-repeat;
+
+}
+
+#self_introduction_paragraph{
+  display:inline-block;
+  margin-left:6%;
+  margin-top:0;
+  margin-bottom:10%;
+  width:30%;
+  height:400px;
+  font-size:24px;
+}
+  
+
+
+/*--------------about.html--------------*/
+
+/*--------------contact.html--------------*/
+
+#container_contact{
+  background:white;
+  height: 600px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+#contact_icon_box{
+  margin-left:38%;
+  margin-top:12%;
+
+}
+
+#contact_email{
+  display:inline-block;
+  background:url("../image/contact_email.jpg");
+  width:100px;
+  height:100px;
+  background-size:100%;
+  background-position: :center;
+  background-repeat:no-repeat;
+
+}
+
+#contact_instagram{
+  display:inline-block;
+  background:url("../image/contact_instagram.jpg");
+  margin-left:3%;
+  width:100px;
+  height:100px;
+  background-size:100%;
+  background-position: :center;
+  background-repeat:no-repeat;
+
+}
+
+#contact_facebook{
+  display:inline-block;
+  background:url("../image/contact_facebook.jpg");
+  margin-left:3%;
+  width:100px;
+  height:100px;
+  background-size:100%;
+  background-position: :center;
+  background-repeat:no-repeat;
+
+}
+
+
+
+/*--------------contact.html--------------*/
+
+/*--------------daily_set.html--------------*/
+
+#container_daily_set{
+  background:white;
+  height: 4600px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+
+#daily_set_photos_box{
+ margin-top:3%;
+}
+
+#daily_set_photos_1{
+  background: url("../image/daily_set_1.jpg");
+  width:70%;
+  height:16%;
+  background-size:100%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#daily_set_photos_2{
+  display:inline-block;
+  background: url("../image/daily_set_2.jpg");
+  width:70%;
+  height:16%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#daily_set_photos_3{
+  display:inline-block;
+  background: url("../image/daily_set_3.jpg");
+  width:70%;
+  height:16%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#daily_set_photos_4{
+  display:inline-block;
+  background: url("../image/daily_set_4.jpg");
+  width:70%;
+  height:16%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#daily_set_paragraph_box{
+  display:inline-block;
+  width:70%;
+  height:16%;
+  margin-top:2%;
+  margin-left:12%;
+}
+
+.daily_set_paragraph{
+ font-size:24px;
+}
+
+#daily_set_video{
+  display:inline-block;
+  margin-top:6%;
+  margin-left:16%;
+  background-size:100%;
+
+}
+
+/*--------------daily_set.html--------------*/
+
+/*--------------wave_machine.html--------------*/
+
+#container_wave_machine{
+  background:white;
+  height: 4600px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+#wave_machine_photos_box{
+ margin-top:3%;
+}
+
+#wave_machine_1{
+  background: url("../image/wave_machine_1.gif");
+  width:70%;
+  height:13%;
+  background-size:100%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#wave_machine_2{
+  display:inline-block;
+  background: url("../image/wave_machine_2.jpg");
+  width:70%;
+  height:23%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#wave_machine_3{
+  display:inline-block;
+  background: url("../image/wave_machine_3.jpg");
+  width:70%;
+  height:23%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#wave_machine_4{
+  display:inline-block;
+  background: url("../image/wave_machine_4.jpg");
+  width:70%;
+  height:14%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#wave_machine_5{
+  display:inline-block;
+  background: url("../image/wave_machine_5.jpg");
+  width:70%;
+  height:14%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#wave_machine_paragraph_box{
+  display:inline-block;
+  width:70%;
+  height:16%;
+  margin-top:2%;
+  margin-left:12%;
+}
+
+.wave_machine_paragraph{
+ font-size:24px;
+}
+
+#wave_machine_video{
+  display:inline-block;
+  margin-top:6%;
+  margin-left:8%;
+  background-size:100%;
+
+}
+
+
+/*--------------wave_machine.html--------------*/
+
+/*--------------mask.html--------------*/
+
+#container_mask{
+  background:white;
+  height:3800px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+#mask_photos_box{
+ margin-top:3%;
+}
+
+#mask_photos_1{
+  background: url("../image/mask_photos_1.jpg");
+  width:70%;
+  height:18%;
+  background-size:100%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#mask_photos_2{
+  display:inline-block;
+  background: url("../image/mask_photos_2.jpg");
+  width:70%;
+  height:18%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#mask_photos_3{
+  display:inline-block;
+  background: url("../image/mask_photos_3.jpg");
+  width:70%;
+  height:16%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#mask_photos_4{
+  display:inline-block;
+  background: url("../image/mask_photos_4.jpg");
+  width:70%;
+  height:16%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+
+#mask_paragraph_box{
+  display:inline-block;
+  width:70%;
+  height:16%;
+  margin-top:2%;
+  margin-left:12%;
+}
+
+.mask_paragraph{
+ font-size:24px;
+}
+
+#mask_video{
+  display:inline-block;
+  margin-top:6%;
+  margin-left:7%;
+  background-size:100%;
+
+}
+
+
+/*--------------mask.html--------------*/
+
+/*--------------blank.html--------------*/
+
+
+#container_blank{
+  background:white;
+  height:2800px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+#blank_photos_box{
+ margin-top:3%;
+}
+
+#blank_photos_1{
+  background: url("../image/blank_photos_1.jpg");
+  width:70%;
+  height:23%;
+  background-size:100%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#blank_photos_2{
+  display:inline-block;
+  background: url("../image/blank_photos_2.jpg");
+  width:70%;
+  height:23%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+
+#blank_paragraph_box{
+  display:inline-block;
+  width:70%;
+  height:23%;
+  margin-top:2%;
+  margin-left:12%;
+}
+
+.blank_paragraph{
+ font-size:24px;
+}
+
+#blank_video{
+  display:inline-block;
+  margin-top:6%;
+  margin-left:7%;
+  background-size:100%;
+
+}
+
+
+/*--------------blank.html--------------*/
+
+/*--------------USA_2015.html--------------*/
+
+#container_usa_2015{
+  background:white;
+  height:4000px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+#usa_2015_photos_box{
+ margin-top:3%;
+}
+
+#usa_2015_photos_1{
+  background: url("../image/usa_2015_photos_1.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_2{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_2.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_3{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_3.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_4{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_4.jpg");
+  width:70%;
+  height:25%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_5{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_5.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_6{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_6.jpg");
+  width:70%;
+  height:25%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_7{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_7.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_8{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_8.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_9{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_9.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_10{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_10.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_11{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_11.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_12{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_12.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#usa_2015_photos_13{
+  display:inline-block;
+  background: url("../image/usa_2015_photos_13.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+
+#usa_2015_paragraph_box{
+  display:inline-block;
+  width:70%;
+  height:23%;
+  margin-top:6%;
+  margin-left:12%;
+}
+
+.usa_2015_paragraph{
+ font-size:24px;
+}
+
+
+
+/*--------------USA_2015.html--------------*/
+
+/*--------------taiwan.html--------------*/
+
+#container_taiwan{
+  background:white;
+  height:4000px;
+  width:97%;
+  margin-left:1.3%;
+  margin-top:0px;
+}
+
+#taiwan_photos_box{
+ margin-top:3%;
+}
+
+#taiwan_photos_1{
+  background: url("../image/taiwan_photos_1.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_2{
+  display:inline-block;
+  background: url("../image/taiwan_photos_2.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_3{
+  display:inline-block;
+  background: url("../image/taiwan_photos_3.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_4{
+  display:inline-block;
+  background: url("../image/taiwan_photos_4.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_5{
+  display:inline-block;
+  background: url("../image/taiwan_photos_5.jpg");
+  width:70%;
+  height:20%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_6{
+  display:inline-block;
+  background: url("../image/taiwan_photos_6.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_7{
+  display:inline-block;
+  background: url("../image/taiwan_photos_7.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_8{
+  display:inline-block;
+  background: url("../image/taiwan_photos_8.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_9{
+  display:inline-block;
+  background: url("../image/taiwan_photos_9.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_10{
+  display:inline-block;
+  background: url("../image/taiwan_photos_10.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_11{
+  display:inline-block;
+  background: url("../image/taiwan_photos_11.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_12{
+  display:inline-block;
+  background: url("../image/taiwan_photos_12.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+#taiwan_photos_13{
+  display:inline-block;
+  background: url("../image/taiwan_photos_13.jpg");
+  width:70%;
+  height:19%;
+  background-size:100%;
+  margin-top:2%;
+  margin-left:12%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+
+#taiwan_paragraph_box{
+  display:inline-block;
+  width:70%;
+  height:23%;
+  margin-top:6%;
+  margin-left:12%;
+}
+
+.taiwan_paragraph{
+ font-size:24px;
+}
+
+
+
+/*--------------taiwan.html--------------*/
+
